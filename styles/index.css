@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  padding: 20px 10px;
+}
+@media (min-width: 768px) {
+  .login {
+    padding: 30px 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .login {
+    display: grid;
+    padding: 0;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 0;
+  }
+}
+.login .login__desktop {
+  background-color: #f8f9ff;
+  padding: 20px 60px 30px 60px;
+}
+@media (max-width: 1023px) {
+  .login .login__desktop {
+    display: none;
+  }
+}
+.login .login__desktop__logo img {
+  width: 80px;
+}
+.login .login__desktop__container {
+  padding-top: 40px;
+}
+.login .login__desktop__container h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.login .login__desktop__container p {
+  font-size: 12px;
+  padding: 15px 0;
+}
+.login .login__desktop__main--img--container {
+  position: relative;
+  padding-top: 34px;
+}
+.login .login__desktop__mask--group {
+  width: 60%;
+  height: auto;
+}
+.login .login__desktop__first--design {
+  position: absolute;
+  width: 30%;
+  right: 8rem;
+  top: -5px;
+}
+.login .login__desktop__second--design {
+  position: absolute;
+  width: 30%;
+  bottom: 3rem;
+  left: -3rem;
+}
+.login__section {
+  gap: 10px;
+  background-color: #fff;
+}
+@media (min-width: 1024px) {
+  .login__section {
+    padding-top: 30px;
+    padding: 30px 60px;
+  }
+}
+.login__learn-for-free-btn--container {
+  display: flex;
+  justify-content: flex-end;
+}
+.login__learn-for-free-btn--container button {
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  font-size: medium;
+  background-color: #002695;
+  border-radius: 5px;
+}
+.login__learn-for-free-btn--container button:hover {
+  cursor: pointer;
+}
+.login__header--text {
+  margin-top: 30px;
+  color: #333333;
+}
+.login__header--text h1 {
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+.login__header--text p {
+  font-size: 13px;
+  padding-bottom: 22px;
+}
+.login__section, .login__form--section, .login__input--label--container {
+  display: flex;
+  flex-direction: column;
+}
+.login__section button, .login__form--section button, .login__input--label--container button {
+  color: #fff;
+  background-color: #002695;
+  border: none;
+  font-size: 15px;
+  padding: 14px;
+  border-radius: 5px;
+}
+.login__section button:hover, .login__form--section button:hover, .login__input--label--container button:hover {
+  cursor: pointer;
+}
+.login__form--section {
+  gap: 20px;
+}
+.login__input--label--container {
+  gap: 8px;
+}
+.login__label {
+  font-size: 12px;
+  font-weight: 500;
+}
+.login__input {
+  padding: 12px 0 12px 10px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+}
+.login__remember--me--forgot--password--section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__remember--me--forgot--password--section h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #002695;
+  font-weight: bold;
+}
+.login__remember--me--section {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.login__remember--me--section p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.login__or--section {
+  color: #333333;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.login__straight--line {
+  background-color: #333333;
+  height: 1px;
+  width: 100%;
+}
+.login__alternative--section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login__with--google, .login__with--apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid #333333;
+  padding: 10px 30px;
+}
+.login__with--google:hover, .login__with--apple:hover {
+  cursor: pointer;
+}
+.login__with--google p, .login__with--apple p {
+  color: #333333;
+  font-weight: 600;
+  font-size: 12px;
+}
+.login__with--google--text, .login__with--apple--text {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 600;
+  padding: 0 14px;
+}
+.login__help--center--section {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+.login__help--center--section h1,
+.login__help--center--section p {
+  font-size: 12px;
+}
+.login__help--center--section p {
+  color: #002695;
+  font-weight: 600;
+}/*# sourceMappingURL=index.css.map */
