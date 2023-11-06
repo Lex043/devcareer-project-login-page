@@ -33,11 +33,11 @@
 
             h1 {
                 font-weight: bold;
-                font-size: 30px;
+                @include calculateRem(35);
             }
 
             p {
-                font-size: 12px;
+                @include calculateRem(12);
                 padding: 15px 0;
             }
         }
@@ -101,12 +101,12 @@
 
         h1 {
             font-weight: bolder;
-            font-size: 20px;
+            @include calculateRem(20);
             padding-bottom: 12px;
         }
 
         p {
-            font-size: 13px;
+            @include calculateRem(12);
             padding-bottom: 22px;
         }
     }
@@ -140,7 +140,7 @@
     }
 
     &__label {
-        font-size: 12px;
+        @include calculateRem(12);
         font-weight: 500;
     }
 
@@ -156,7 +156,7 @@
         justify-content: space-between;
 
         h2 {
-            font-size: 12px;
+            @include calculateRem(12);
             font-weight: 600;
             color: $btn-color;
             font-weight: bold;
@@ -169,14 +169,14 @@
         gap: 7px;
 
         p {
-            font-size: 12px;
+            @include calculateRem(12);
             font-weight: 600;
         }
     }
 
     &__or--section {
         color: $primary-color;
-        font-size: 12px;
+        @include calculateRem(12);
         display: flex;
         align-items: center;
         gap: 7px;
@@ -216,7 +216,7 @@
 
     &__with--google--text,
     &__with--apple--text {
-        font-size: 12px;
+        @include calculateRem(12);
         color: $primary-color;
         font-weight: 600;
         padding: 0 14px;
@@ -229,7 +229,7 @@
 
         h1,
         p {
-            font-size: 12px;
+            @include calculateRem(12);
         }
 
         p {
