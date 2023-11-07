@@ -52,6 +52,9 @@ p {
 .login .login__desktop__logo img {
   width: 80px;
 }
+.login .login__desktop__logo img:hover {
+  cursor: pointer;
+}
 .login .login__desktop__container {
   padding-top: 40px;
 }
